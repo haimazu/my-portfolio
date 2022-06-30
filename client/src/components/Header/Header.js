@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 
 import "./header.css";
 
-// import Navbar from "../Navbar/Navbar";
-// import Sidebar from "../Sidebar/Sidebar";
-// import Socials from "../Socials/Socials";
+import Navbar from "../Navbar/Navbar";
+import Sidebar from "../Sidebar/Sidebar";
+import Socials from "../Socials/Socials";
 
 import { logoImage } from "../../data";
 
@@ -25,17 +25,17 @@ const Header = () => {
         {/* logo */}
         <img src={logoImage} alt="" />
         {/* nav */}
-        {/* <div className="nav">
+        <div className="nav">
           <Navbar />
-        </div> */}
+        </div>
         {/* socials */}
-        {/* <div className="socials">
+        <div className="socials">
           <Socials />
-        </div> */}
+        </div>
         {/* sidebar */}
-        {/* <div className="sidebar">
+        <div className="sidebar">
           <Sidebar />
-        </div> */}
+        </div>
       </div>
     </header>
   );

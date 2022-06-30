@@ -1,0 +1,26 @@
+/* ============== Nav.js ============== */
+.nav_container_ul {
+  display: flex;
+  margin-left: 2rem;
+  text-transform: capitalize;
+  font-size: 16px;
+  gap: 35px;
+}
+
+.nav_container_li {
+  color: var(--color-white);
+}
+
+.nav_container_li:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.nav_container_li_active {
+  transition-property: all;
+  transition-duration: 300ms;
+}
+
+.active {
+  color: var(--color-primary);
+}
