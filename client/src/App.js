@@ -1,10 +1,12 @@
 import React from "react";
 
+import { DataProvider } from "./GlobalState";
+
 const App = () => {
   return (
-    <div>
+    <DataProvider>
       App
-    </div>
+    </DataProvider>
   );
 }
 
