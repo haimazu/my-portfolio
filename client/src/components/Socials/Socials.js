@@ -13,7 +13,7 @@ const Socials = () => {
             className="socials_icon"
             key={index}
           >
-            <a className="socials_icon" href={item.href} target="_blank">
+            <a className="socials_icon" href={item.href} target="_blank" rel="noreferrer">
               {item.icon}
             </a>
           </li>

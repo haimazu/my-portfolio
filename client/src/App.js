@@ -3,8 +3,8 @@ import React from "react";
 import { DataProvider } from "./GlobalState";
 
 import Header from "./components/Header/Header";
-// import Hero from "./components/Hero/Hero";
-// import About from "./components/About/About";
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
 // import Companies from "./components/Companies/Companies";
 // import Projects from "./components/Projects/Projects";
 // import Skills from "./components/Skills/Skills";
@@ -16,12 +16,12 @@ const App = () => {
   return (
     <DataProvider>
       <Header />
-      {/* <Hero />
+      <Hero />
       <About />
-      <Companies />
-      <Skills />
-      <Projects />
-      <Contact /> */}
+      {/* <Companies /> */}
+      {/* <Skills /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
       <Footer />
       <BackTopBtn />
     </DataProvider>

@@ -16,18 +16,13 @@ const BackTopBtn = () => {
     scroll.scrollToTop();
   };
 
-  {
-    return (
-      show && (
-        <button
-          onClick={() => scrollToTop()}
-          className="btn_back_to_top"
-        >
-          <IoIosArrowUp />
-        </button>
-      )
-    );
-  }
+  return (
+    show && (
+      <button onClick={() => scrollToTop()} className="btn_back_to_top">
+        <IoIosArrowUp />
+      </button>
+    )
+  );
 };
 
 export default BackTopBtn;
