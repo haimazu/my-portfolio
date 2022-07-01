@@ -1,0 +1,84 @@
+/* ============== Projects.js ============== */
+.projects_section {
+  background: #1C1D24;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.projects_container {
+  margin: auto;
+  width: 92%;
+}
+
+.projects_title {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects_list {
+  display: grid;
+  row-gap: 3rem;
+}
+
+/* ============== Project.js ============== */
+.project_container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 0 1px 1px 1px var(--color-primary);
+  transition: all 0.5s ease 0s;
+  background-color: transparent;
+}
+
+.project_container:hover {
+  transform: scale(1.02);
+  overflow: hidden;
+  box-shadow: 0 2px 2px 2px var(--color-primary);
+}
+
+.project_image_div {
+  margin-bottom: 2rem;
+}
+
+.project_image {
+  border-radius: 1rem;
+  width: 366px;
+  height: 250px;
+}
+
+.project_item_name {
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-white);
+}
+
+.project_item_descriptions {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  max-width: 28rem;
+}
+
+.project_item_buttons {
+  padding: 1rem;
+}
+
+/* ============== Media Queries (Medium Devices) ============== */
+@media (min-width: 1024px) {
+  .projects_list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+
+  .portfolio_section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
