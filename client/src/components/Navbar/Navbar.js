@@ -12,10 +12,7 @@ const Navbar = () => {
       <ul className="nav_container_ul">
         {navigation.map((item, index) => {
           return (
-            <li
-              className="nav_container_li"
-              key={index}
-            >
+            <li className="nav_container_li" key={index}>
               <Link
                 to={item.href}
                 className="nav_container_li_active"

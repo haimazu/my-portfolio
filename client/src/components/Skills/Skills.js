@@ -24,7 +24,7 @@ const Skills = () => {
     <section className="knowledge_section" id="skills">
       <div className="knowledge_container">
         <div className="knowledge_title">
-          <h1 style={{ color: "var(--color-primary)" }}>Professional Skills</h1>
+          <h1 style={{ color: "var(--color-primary)" }}>Professional skills</h1>
         </div>
 
         <hr />

@@ -8,7 +8,7 @@ import About from "./components/About/About";
 import Companies from "./components/Companies/Companies";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
-// import Contact from "./components/Contact/Contact";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BackTopBtn from "./components/BackTopBtn";
 
@@ -21,11 +21,11 @@ const App = () => {
       <Companies />
       <Skills />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
       <BackTopBtn />
     </DataProvider>
   );
-}
+};
 
 export default App;
