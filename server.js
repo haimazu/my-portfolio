@@ -11,7 +11,7 @@ app.use("/api", require("./routes/projectRouter"));
 app.use("/api", require("./routes/upload"));
 
 // Connect to mongoDB
-const URI = process.env.MONGODB_URL;
+const URI = process.env.MONGODB_URI;
 mongoose.connect(
   URI,
   {

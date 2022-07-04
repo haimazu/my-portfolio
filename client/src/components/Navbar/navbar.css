@@ -19,6 +19,7 @@
 .nav_container_li_active {
   transition-property: all;
   transition-duration: 300ms;
+  border-bottom: 2px solid red;
 }
 
 .active {

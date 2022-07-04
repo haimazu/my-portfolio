@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+<h1 align="center">
+  My Portfolio<br/>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## In process...
+- Server section
+- Update projects page
+---
 
-## Available Scripts
+## Technologies and Tools
+![git](https://img.shields.io/static/v1?label=git&message=v2.36.1&color=orange&logo=git&labelColor=363D44)
+![cloudinary](https://img.shields.io/static/v1?label=cloudinary&message=v%5E1.23.0&color=blue&logo=Microsoft+OneDrive&logoColor=blue&labelColor=363D44)
+![heroku](https://img.shields.io/static/v1?label=heroku&message=v%5E1.23.0&color=blueviolet&logo=heroku&logoColor=blueviolet&labelColor=363D44) 
+![express](https://img.shields.io/static/v1?label=express&message=v%5E4.17.1&color=red&logo=express&logoColor=red&labelColor=363D44) 
+![mongoose](https://img.shields.io/static/v1?label=mongoose&message=v%5E5.10.1&color=4caf50&logo=mongodb&labelColor=363D44)  ![postman](https://img.shields.io/static/v1?label=postman&message=v9.23.3&color=orange&logo=postman&logoColor=orange&labelColor=363D44) <br><br>
 
-In the project directory, you can run:
+![react](https://img.shields.io/static/v1?label=react&message=v%5E18.2.0&color=00bcd4&logo=react&labelColor=363D44) 
+![nodejs](https://img.shields.io/static/v1?label=nodejs&message=v16.14.0&color=38843b&logo=node.js&labelColor=363D44)
+![html5](https://img.shields.io/static/v1?label=html5&message=any&color=red&logo=html5&labelColor=363D44)
+![css3](https://img.shields.io/static/v1?label=css3&message=any&color=blue&logo=css3&labelColor=363D44&logoColor=blue)
 
-### `npm start`
+## Introduction[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
+My personal portfolio [https://haimazu.github.io](https://haimazu.github.io/my-portfolio).<br><br>
+The **back-end**, this repository contains the files for contacting the server and accessing the database for dynamic data.<br><br>
+The **front-end** repository contains the files for creating a web application.<br>
+It has been developed using Create-React-App.
+<br><br>**On the site you can:**
+```
+1. Read briefly who I am.
+2. The number of skills I have acquired over the years.
+3. The number of projects I have done.
+4. Find me on social media.
+5. Contact me via email.
+```
+[![demo](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656856775/portfolio/home_g3ta7a.png)](https://github.com/haimazu/my-portfolio)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
+The project was built using these technologies / tools:<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Global**
 
-### `npm test`
+- VsCode
+- Git
+- Cloudinary
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Back-end:**
 
-### `npm run build`
+- Heroku
+- Express.js
+- MogngoDB
+- Postman
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Front-end:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js
+- Node.js
+- HTML5
+- CSS3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My Website[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
+[https://haimazu.github.io](https://haimazu.github.io/my-portfolio)
 
-### `npm run eject`
+## Credit[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
+Design idea - Cristian Mihai && soumyajit4419
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Copyright[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
+All rights reserved to me, willing to copy or use please give credit.
