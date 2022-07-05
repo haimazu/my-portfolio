@@ -15,7 +15,6 @@ const Navbar = () => {
             <li className="nav_container_li" key={index}>
               <Link
                 to={item.href}
-                className="nav_container_li_active"
                 activeClass="active"
                 spy={true}
                 smooth={true}

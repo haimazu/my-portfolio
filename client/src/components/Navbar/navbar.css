@@ -9,19 +9,17 @@
 
 .nav_container_li {
   color: var(--color-white);
+  display: flex;
+  align-items: center;
 }
 
 .nav_container_li:hover {
   color: var(--color-primary);
   cursor: pointer;
-  border-bottom: 2px var(--color-primary);
-}
-
-.nav_container_li_active {
-  transition-property: all;
-  transition-duration: 300ms;
 }
 
 .active {
   color: var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  border-radius: 2px;
 }
