@@ -96,7 +96,7 @@ export const social = [
   },
   {
     icon: <BsInstagram />,
-    href: "https://www.instagram.com/",
+    href: "https://www.instagram.com/haimikos",
   },
   {
     icon: <SiHackthebox />,
