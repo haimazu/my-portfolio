@@ -1,15 +1,15 @@
 import React from "react";
 
 import "./projects.css";
-// import { GlobalState } from "../../GlobalState";
+import { GlobalState } from "../../GlobalState";
 
-import { projectsData } from "../../data";
+// import { projectsData } from "../../data";
 
 import Project from "./Project";
 
 const Projects = () => {
-  // const state = useContext(GlobalState);
-  // const [projectsData] = state.projectsAPI.projects;
+  const state = useContext(GlobalState);
+  const [projectsData] = state.projectsAPI.projects;
 
   return (
     <section className="projects_section" id="projects">

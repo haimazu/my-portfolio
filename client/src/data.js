@@ -262,20 +262,20 @@ export const Systems = [
   },
 ];
 
-// Projects
-export const projectsData = [
-  {
-    project_id: "1",
-    title: "Project 1",
-    image: {
-      public_id: "portfolio/projects/wykxdg8flyqobcxnmwwe",
-      url: "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656519865/portfolio/projects/wykxdg8flyqobcxnmwwe.png"
-    },
-    description: "some text",
-    github: "https://github.com",
-    demo: "https://github.com"
-  }
-]
+// // Projects
+// export const projectsData = [
+//   {
+//     project_id: "1",
+//     title: "Project 1",
+//     image: {
+//       public_id: "portfolio/projects/wykxdg8flyqobcxnmwwe",
+//       url: "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656519865/portfolio/projects/wykxdg8flyqobcxnmwwe.png"
+//     },
+//     description: "some text",
+//     github: "https://github.com",
+//     demo: "https://github.com"
+//   }
+// ]
 
 // Contact
 export const contact = [
