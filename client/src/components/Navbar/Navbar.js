@@ -4,28 +4,33 @@ import "./navbar.css";
 
 import { navigation } from "../../data";
 
-import { Link } from "react-scroll";
+import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
-const Navbar = () => {
+const Navbar = ({ isScroll }) => {
   return (
     <nav>
       <ul className="nav_container_ul">
         {navigation.map((item, index) => {
           return (
-            <li className="nav_container_li" key={index}>
-              <Link
+            <li key={index} className="nav_container_li">
+              <LinkS
                 to={item.href}
-                activeClass="active"
-                spy={true}
                 smooth={true}
+                spy={true}
                 duration={500}
                 offset={-70}
+                activeClass={isScroll ? "active" : "none"}
+                className="nav_container_li"
               >
                 {item.name}
-              </Link>
+              </LinkS>
             </li>
           );
         })}
+        <LinkR className="nav_container_btn_link" to="login">
+          Login
+        </LinkR>
       </ul>
     </nav>
   );

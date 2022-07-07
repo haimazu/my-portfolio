@@ -1,30 +1,16 @@
 import React from "react";
 
-import { DataProvider } from "./GlobalState";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
 
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
-import Companies from "./components/Companies/Companies";
-import Skills from "./components/Skills/Skills";
-import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import BackTopBtn from "./components/BackTopBtn";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <DataProvider>
-      <Header />
-      <Hero />
-      <About />
-      <Companies />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-      <BackTopBtn />
-    </DataProvider>
+    <Routes>
+      <Route path="/" element={<Home />} exact />
+      <Route path="/login" element={<Login />} exact />
+    </Routes>
   );
 };
 

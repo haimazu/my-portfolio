@@ -1,6 +1,6 @@
 /* ============== Projects.js ============== */
 .projects_section {
-  background: #1C1D24;
+  background: #1c1d24;
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
@@ -70,7 +70,7 @@
 }
 
 /* ============== Media Queries (Medium Devices) ============== */
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .projects_list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     column-gap: 2rem;

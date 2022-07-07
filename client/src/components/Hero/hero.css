@@ -23,7 +23,7 @@
 .hero_details_left {
   display: flex;
   flex-direction: column;
-  flex: 1 1 0%;
+  /* flex: 1 1 0%; */
   align-items: center;
 }
 
@@ -35,8 +35,8 @@
 }
 
 .hero_details_left_title {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 3.25rem;
+  line-height: 4.5rem;
   font-weight: 700;
 }
 
@@ -60,8 +60,8 @@
   margin-bottom: -2px;
 }
 
-/* ============== Media Queries (Medium Devices) ============== */
-@media (min-width: 1024px) {
+/* Extra large devices (large laptops and desktops, 1024px and up) */
+@media screen and (min-width: 1024px) {
   .hero_container {
     padding-top: 0;
     padding-bottom: 0;
@@ -75,22 +75,37 @@
     align-items: flex-start;
   }
 
-  .hero_details_left_title {
+  /* .hero_details_left_title {
     font-size: 4.5rem;
     line-height: 1;
-  }
+  } */
 
-  .hero_details_left_subtitle {
+  /* .hero_details_left_subtitle {
     text-align: left;
-  }
+  } */
 
   .hero_details_right {
     display: flex;
   }
 }
 
-/* ============== Media Queries (Small Devices) ============== */
-@media (min-width: 768px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hero_container {
+    background-image: url("https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528686/portfolio/hacker-kali-linux-bg_sfcngx.jpg");
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* 
+  .hero_body {
+    margin: auto;
+    width: 70%;
+    height: 100%;
+  } */
+
   .hero_details_left_title {
     font-size: 3rem;
     line-height: 1;
@@ -102,3 +117,23 @@
     padding-bottom: 3rem;
   }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero_container {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero_body {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+  }
+
+  .hero_details_left_title {
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+  }
+} 

@@ -2,6 +2,7 @@
 .socials_container_ul {
   display: flex;
   margin-left: 1.5rem;
+  margin-top: 10px;
   gap: 24px;
 }
 

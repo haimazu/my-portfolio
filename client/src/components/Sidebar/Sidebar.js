@@ -10,7 +10,8 @@ import { navigation } from "../../data";
 import Socials from "../Socials/Socials";
 import { motion } from "framer-motion";
 
-import { Link } from "react-scroll";
+import { Link as LinkS } from "react-scroll";
+import { Link as LinkR } from "react-router-dom";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,10 +42,7 @@ const Sidebar = () => {
 
   return (
     <nav className="sidebar_container">
-      <div
-        onClick={() => setIsOpen(true)}
-        className="sidebar_is_open"
-      >
+      <div onClick={() => setIsOpen(true)} className="sidebar_is_open">
         <CgMenu className="sidebar_is_open_menu_icon" />
       </div>
 
@@ -63,16 +61,13 @@ const Sidebar = () => {
         className={`${isOpen ? "sidebar_motion_open" : "sidebar_motion_close"}`}
         onClick={() => setIsOpen(false)}
       >
-        <div
-          onClick={() => setIsOpen(false)}
-          className="sidebar_xicon_div"
-        >
+        <div onClick={() => setIsOpen(false)} className="sidebar_xicon_div">
           <IoMdClose className="sidebar_xicon" />
         </div>
         {navigation.map((item, index) => {
           return (
             <li key={index} className="sidebar_navigation_li">
-              <Link
+              <LinkS
                 to={item.href}
                 smooth={true}
                 duration={500}
@@ -81,10 +76,13 @@ const Sidebar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
-              </Link>
+              </LinkS>
             </li>
           );
         })}
+        <LinkR className="sidebar_container_btn_link" to="login">
+          Login
+        </LinkR>
         <Socials />
       </motion.ul>
     </nav>

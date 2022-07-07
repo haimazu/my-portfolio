@@ -3,7 +3,6 @@
 </h1>
 
 ## In process...
-- Server section
 - Update projects page
 ---
 
@@ -20,7 +19,7 @@
 ![css3](https://img.shields.io/static/v1?label=css3&message=any&color=blue&logo=css3&labelColor=363D44&logoColor=blue)
 
 ## Introduction[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
-My personal portfolio [https://haimazu.github.io](https://haimazu.github.io/my-portfolio).<br><br>
+My personal portfolio [https://haimazu.herokuapp.com](https://haimazu.herokuapp.com).<br><br>
 The **back-end**, this repository contains the files for contacting the server and accessing the database for dynamic data.<br><br>
 The **front-end** repository contains the files for creating a web application.<br>
 It has been developed using Create-React-App.
@@ -32,7 +31,7 @@ It has been developed using Create-React-App.
 4. Find me on social media.
 5. Contact me via email.
 ```
-[![demo](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656856775/portfolio/home_g3ta7a.png)](https://github.com/haimazu/my-portfolio)
+[![demo](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656856775/portfolio/home_g3ta7a.png)](https://haimazu.herokuapp.com)
 
 ## Built With[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
 The project was built using these technologies / tools:<br>
@@ -58,7 +57,7 @@ The project was built using these technologies / tools:<br>
 - CSS3
 
 ## My Website[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
-[https://haimazu.github.io](https://haimazu.github.io/my-portfolio)
+[https://haimazu.github.io](https://haimazu.herokuapp.com)
 
 ## Credit[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
 Design idea - Cristian Mihai && soumyajit4419

@@ -67,7 +67,7 @@
 }
 
 .contact_left_body_item_description {
-  color: rgb(13 148 136);
+  color: var(--color-primary-hover);
   font-weight: 400;
 }
 

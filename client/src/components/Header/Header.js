@@ -26,7 +26,7 @@ const Header = () => {
         <img src={logoImage} alt="" />
         {/* nav */}
         <div className="nav">
-          <Navbar />
+          <Navbar isScroll={bg} />
         </div>
         {/* socials */}
         <div className="socials">
