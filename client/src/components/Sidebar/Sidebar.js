@@ -10,8 +10,7 @@ import { navigation } from "../../data";
 import Socials from "../Socials/Socials";
 import { motion } from "framer-motion";
 
-import { Link as LinkS } from "react-scroll";
-import { Link as LinkR } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,7 +66,7 @@ const Sidebar = () => {
         {navigation.map((item, index) => {
           return (
             <li key={index} className="sidebar_navigation_li">
-              <LinkS
+              <Link
                 to={item.href}
                 smooth={true}
                 duration={500}
@@ -76,13 +75,10 @@ const Sidebar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
-              </LinkS>
+              </Link>
             </li>
           );
         })}
-        <LinkR className="sidebar_container_btn_link" to="login">
-          Login
-        </LinkR>
         <Socials />
       </motion.ul>
     </nav>

@@ -4,8 +4,7 @@ import "./navbar.css";
 
 import { navigation } from "../../data";
 
-import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Navbar = ({ isScroll }) => {
   return (
@@ -14,7 +13,7 @@ const Navbar = ({ isScroll }) => {
         {navigation.map((item, index) => {
           return (
             <li key={index} className="nav_container_li">
-              <LinkS
+              <Link
                 to={item.href}
                 smooth={true}
                 spy={true}
@@ -24,13 +23,10 @@ const Navbar = ({ isScroll }) => {
                 className="nav_container_li"
               >
                 {item.name}
-              </LinkS>
+              </Link>
             </li>
           );
         })}
-        <LinkR className="nav_container_btn_link" to="login">
-          Login
-        </LinkR>
       </ul>
     </nav>
   );
