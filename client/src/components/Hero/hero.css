@@ -67,7 +67,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
   }
 
   .hero_details_left {
@@ -77,12 +77,6 @@
 
   .hero_details_right {
     display: flex;
-  }
-
-  .hero_details_right_image {
-    width: 450px;
-    height: 450px;
-    margin-right: -3rem;
   }
 }
 
