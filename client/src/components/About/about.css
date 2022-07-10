@@ -77,3 +77,24 @@
     display: block;
   }
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .about_left_image {
+    margin: auto;
+  }
+
+  .about_descriptions {
+    line-height: 1.3;
+    font-size: 1.5rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .about_left_image {
+    margin: auto;
+    width: 350px;
+    height: 300px;
+  }
+}

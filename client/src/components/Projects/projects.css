@@ -76,9 +76,27 @@
     column-gap: 2rem;
     row-gap: 2rem;
   }
+}
 
-  .portfolio_section {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .projects_list {
+    grid-template-columns: 1fr auto;
+    column-gap: 1rem;
+    width: 49%;
+    margin-left: -0.7rem;
+  }
+
+  .project_image {
+    width: 356px;
+    height: 250px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .project_image {
+    width: 336px;
+    height: 250px;
   }
 }

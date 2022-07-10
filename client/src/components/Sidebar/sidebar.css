@@ -65,6 +65,10 @@
   height: 2rem;
 }
 
+.sidebar_navigation_ul {
+  text-align: center;
+}
+
 .sidebar_navigation_li {
   margin-bottom: 2rem;
 }
@@ -98,32 +102,37 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .sidebar_is_open_menu_icon {
-    width: 6rem;
+    width: 2rem;
     height: 2rem;
   }
 
   .sidebar_xicon {
-    width: 6rem;
+    width: 2rem;
     height: 2rem;
   }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .sidebar_navigation_ul {
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+  }
+
   .sidebar_is_open {
     position: absolute;
     bottom: -1.5rem;
-    right: -1rem;
+    right: -3rem;
     cursor: pointer;
   }
 
   .sidebar_is_open_menu_icon {
-    width: 27rem;
+    width: 10rem;
     height: 2rem;
   }
 
   .sidebar_xicon {
-    width: 24rem;
+    width: 2rem;
     height: 2rem;
   }
 }

@@ -78,21 +78,25 @@
   max-width: 780px;
 }
 
-.contact_form_first_line { /* Name & Email */
+.contact_form_first_line {
+  /* Name & Email */
   display: flex;
   gap: 2rem;
   padding-bottom: 2rem;
 }
 
-.contact_form_second_line { /* Subject */
+.contact_form_second_line {
+  /* Subject */
   padding-bottom: 2rem;
 }
 
-.contact_form_third_line { /* Message */
+.contact_form_third_line {
+  /* Message */
   padding-bottom: 2rem;
 }
 
-input, textarea {
+input,
+textarea {
   background: var(--color-bg-darkgray);
   border: 1px solid transparent;
   padding: 1.5rem;
@@ -103,12 +107,14 @@ input, textarea {
   color: var(--color-white);
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border: 1px solid var(--color-primary);
   border-radius: 5px;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: var(--color-paragraph);
   font-size: 16px;
 }
@@ -135,5 +141,31 @@ input::placeholder, textarea::placeholder {
 
   .contact_left_body_item_icon {
     margin-bottom: 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contact_subtitle {
+    font-size: 24px;
+  }
+
+  .contact_left_body_item {
+    flex-direction: row;
+  }
+
+  .contact_left_body_item_subtitle {
+    font-size: 17px;
+  }
+
+  .contact_left_body_item_description {
+    font-size: 17px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact_left_body_item {
+    flex-direction: row;
   }
 }

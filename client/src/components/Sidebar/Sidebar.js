@@ -63,23 +63,25 @@ const Sidebar = () => {
         <div onClick={() => setIsOpen(false)} className="sidebar_xicon_div">
           <IoMdClose className="sidebar_xicon" />
         </div>
-        {navigation.map((item, index) => {
-          return (
-            <li key={index} className="sidebar_navigation_li">
-              <Link
-                to={item.href}
-                smooth={true}
-                duration={500}
-                offset={-70}
-                className="sidebar_navigation_link"
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-              </Link>
-            </li>
-          );
-        })}
-        <Socials />
+        <ul className="sidebar_navigation_ul">
+          {navigation.map((item, index) => {
+            return (
+              <li key={index} className="sidebar_navigation_li">
+                <Link
+                  to={item.href}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  className="sidebar_navigation_link"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              </li>
+            );
+          })}
+          <Socials />
+        </ul>
       </motion.ul>
     </nav>
   );
