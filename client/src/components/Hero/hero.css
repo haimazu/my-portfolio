@@ -60,31 +60,29 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1024px and up) */
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .hero_container {
     padding-top: 0;
     padding-bottom: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 100vh;
   }
 
   .hero_details_left {
     align-items: flex-start;
+    margin-top: 3rem;
   }
-
-  /* .hero_details_left_title {
-    font-size: 4.5rem;
-    line-height: 1;
-  } */
-
-  /* .hero_details_left_subtitle {
-    text-align: left;
-  } */
 
   .hero_details_right {
     display: flex;
+  }
+
+  .hero_details_right_image {
+    width: 450px;
+    height: 450px;
+    margin-right: -3rem;
   }
 }
 

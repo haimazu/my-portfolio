@@ -51,10 +51,10 @@
   margin-bottom: 2.4rem;
 }
 
-/* ============== Media Queries (Medium Devices) ============== */
-@media (min-width: 1024px) {
+/* Extra large devices (large laptops and desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
   .about_body {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .about_left_image {
