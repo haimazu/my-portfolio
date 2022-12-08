@@ -1,0 +1,60 @@
+/* ============== Nav.js ============== */
+.nav_container_ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  text-transform: capitalize;
+}
+
+.nav_container_li {
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 25px 10px 20px 10px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.nav_container_li:hover {
+  color: var(--color-primary);
+}
+
+.active {
+  margin-top: 3px;
+  color: var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.nav_container_btn_link {
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: var(--color-white);
+  background: var(--color-primary);
+  padding: 6px 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.nav_container_btn_link:hover {
+  transition: all 0.2s ease-in-out;
+  background: var(--color-white);
+  color: var(--color-bg-black);
+}
+
+/* ============== Media Queries (Small Devices) ============== */
+@media (max-width: 768px) {
+  .nav_container_ul {
+    display: none;
+  }
+
+  .nav_container_btn {
+    display: none;
+  }
+}

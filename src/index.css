@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  --color-primary: rgb(13, 148, 136);
+  --color-primary-hover: rgb(12, 126, 116);
+  --color-white: #fff;
+  --color-paragraph: #878e99;
+
+  --color-bg-black: #131419;
+  --color-bg-lightdark: #050402;
+  --color-bg-darkgray: #1c1d24;
+
+  --color-circle-bg: rgb(8, 83, 77);
+
+  --color-category-shadow: rgba(13, 148, 136, 0.8);
+  --color-category-shadow-hover: rgba(13, 148, 136, 0.4);
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #e5e7eb;
+  line-height: 1.5rem;
+  color: var(--color-paragraph);
+}
+
+h1 {
+  color: var(--color-white);
+  position: relative;
+  font-size: 2.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #e5e7eb;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h5 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-top: 1px solid var(--color-white);
+  opacity: 0.1;
+}
+
+.btn_md {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  padding: 0 30px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 7px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn_md:hover {
+  background: var(--color-primary-hover);
+}
+
+/* ============== BackTopBtn.js ============== */
+.btn_back_to_top {
+  background-color: var(--color-primary);
+  display: flex;
+  position: fixed;
+  right: 6rem;
+  bottom: 6rem;
+  transition-property: all;
+  color: var(--color-white);
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.btn_back_to_top:hover {
+  background: var(--color-primary-hover);
+}
+
+.chevron_up_icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* ============== Projects.js ============== */
+.btn_links {
+  background-color: var(--color-primary);
+  display: inline-flex;
+  margin: 2px;
+  color: var(--color-white);
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn_links:hover {
+  background: var(--color-primary-hover);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h5 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .btn_back_to_top {
+    margin-right: -5rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .btn_back_to_top {
+    margin-right: -5rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

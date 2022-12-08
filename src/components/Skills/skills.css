@@ -1,0 +1,58 @@
+.knowledge_section {
+  background: var(--color-bg-lightdark);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.knowledge_container {
+  margin: auto;
+  width: 92%;
+}
+
+.knowledge_title {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ============== Category.js ============== */
+.category_section {
+  background: var(--color-bg-lightdark);
+}
+
+.category_container {
+  margin: auto;
+  width: 92%;
+}
+
+.category_title {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.category_list {
+  font-size: 4.5rem;
+  margin: 0px 6px 35px 25px;
+  padding: 10px;
+  box-shadow: var(--color-category-shadow) 0px 1px 6px;
+  border-radius: 5px;
+  display: inline-flex;
+  overflow: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.category_list:hover {
+  transform: scale(1.05);
+  box-shadow: var(--color-category-shadow-hover) 0px 1px 6px;
+}
+
+/* ============== Media Queries (Medium Devices) ============== */
+@media (min-width: 1024px) {
+  .category_list > img {
+    height: 5rem;
+  }
+}

@@ -1,0 +1,138 @@
+/* ============== Sidebar.js ============== */
+.sidebar_container {
+  position: relative;
+}
+
+.sidebar_is_open {
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.sidebar_is_open_menu_icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.sidebar_circle_bg {
+  background: var(--color-circle-bg);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 19px;
+}
+
+.sidebar_motion_open {
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition-property: all;
+  transition-duration: 300ms;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sidebar_motion_close {
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  bottom: 0;
+  transition-property: all;
+  transition-duration: 300ms;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sidebar_xicon_div {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.sidebar_xicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.sidebar_navigation_ul {
+  text-align: center;
+}
+
+.sidebar_navigation_li {
+  margin-bottom: 2rem;
+}
+
+.sidebar_navigation_link {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.sidebar_container_btn_link {
+  border-radius: 50px;
+  margin-bottom: 25px;
+  color: var(--color-white);
+  background: var(--color-primary);
+  padding: 6px 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.sidebar_container_btn_link:hover {
+  transition: all 0.2s ease-in-out;
+  background: var(--color-white);
+  color: var(--color-bg-black);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .sidebar_is_open_menu_icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .sidebar_xicon {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .sidebar_navigation_ul {
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+  }
+
+  .sidebar_is_open {
+    position: absolute;
+    bottom: -1.5rem;
+    right: -3rem;
+    cursor: pointer;
+  }
+
+  .sidebar_is_open_menu_icon {
+    width: 10rem;
+    height: 2rem;
+  }
+
+  .sidebar_xicon {
+    width: 2rem;
+    height: 2rem;
+  }
+}

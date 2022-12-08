@@ -1,0 +1,29 @@
+.companies_section {
+  background: var(--color-white);
+  display: flex;
+  align-items: center;
+}
+
+.companies_container {
+  width: 86%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* ============== Media Queries (Small Devices) ============== */
+@media (min-width: 768px) {
+  .companies_container {
+    justify-content: space-between;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .companies_container {
+    display: grid;
+    gap: 3rem;
+  }
+}

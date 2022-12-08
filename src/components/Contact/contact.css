@@ -1,0 +1,171 @@
+.contact_section {
+  background: var(--color-bg-black);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.contact_container {
+  margin: auto;
+  width: 92%;
+}
+
+.contact_title {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_subtitle {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  max-width: 520px;
+}
+
+.contact_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_left_body {
+  display: flex;
+  margin-bottom: 3rem;
+  flex-direction: column;
+  flex: 1 1 0%;
+  align-items: flex-start;
+}
+
+.contact_left_body_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_left_body_item_icon {
+  color: var(--color-primary);
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.125rem;
+}
+
+.contact_left_body_item_title {
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.contact_left_body_item_subtitle {
+  margin-bottom: 0.25rem;
+}
+
+.contact_left_body_item_description {
+  color: var(--color-primary-hover);
+  font-weight: 400;
+}
+
+/* ============== Form ============== */
+.contact_form {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 780px;
+}
+
+.contact_form_first_line {
+  /* Name & Email */
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact_form_second_line {
+  /* Subject */
+  padding-bottom: 2rem;
+}
+
+.contact_form_third_line {
+  /* Message */
+  padding-bottom: 2rem;
+}
+
+input,
+textarea {
+  background: var(--color-bg-darkgray);
+  border: 1px solid transparent;
+  padding: 1.5rem;
+  width: 100%;
+  border-radius: 0.125rem;
+  outline: 0;
+  resize: none;
+  color: var(--color-white);
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-paragraph);
+  font-size: 16px;
+}
+
+.input_height {
+  height: 60px;
+}
+
+/* ============== Media Queries (Medium Devices) ============== */
+@media (min-width: 1024px) {
+  .contact_body {
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+
+  .contact_left_body {
+    padding-top: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .contact_left_body_item {
+    flex-direction: row;
+  }
+
+  .contact_left_body_item_icon {
+    margin-bottom: 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contact_subtitle {
+    font-size: 24px;
+  }
+
+  .contact_left_body_item {
+    flex-direction: row;
+  }
+
+  .contact_left_body_item_subtitle {
+    font-size: 17px;
+  }
+
+  .contact_left_body_item_description {
+    font-size: 17px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact_left_body_item {
+    flex-direction: row;
+  }
+}

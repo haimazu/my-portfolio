@@ -1,0 +1,131 @@
+.hero_container {
+  background-image: url("https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528686/portfolio/hacker-kali-linux-bg_sfcngx.jpg");
+  display: flex;
+  overflow: hidden;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  align-items: center;
+}
+
+.hero_body {
+  margin: auto;
+  width: 92%;
+  height: 100%;
+}
+
+.hero_details {
+  display: flex;
+  padding-top: 2rem;
+  align-items: center;
+  height: 100%;
+}
+
+.hero_details_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero_details_left_me {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  margin-bottom: 22px;
+}
+
+.hero_details_left_title {
+  font-size: 3.25rem;
+  line-height: 4.5rem;
+  font-weight: 700;
+}
+
+.hero_details_left_subtitle {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+}
+
+.hero_details_right {
+  display: none;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.hero_details_right_image {
+  margin-bottom: -2px;
+}
+
+/* Extra large devices (large laptops and desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .hero_container {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+  }
+
+  .hero_details_left {
+    align-items: flex-start;
+    margin-top: 3rem;
+  }
+
+  .hero_details_right {
+    display: flex;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hero_container {
+    background-image: url("https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528686/portfolio/hacker-kali-linux-bg_sfcngx.jpg");
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero_details_left_me {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero_details_left_title {
+    font-size: 3rem;
+    line-height: 1.25;
+  }
+
+  .hero_details_left_subtitle {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    font-size: 1.4rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero_container {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero_body {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+  }
+
+  .hero_details_left_title {
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+  }
+} 

@@ -1,0 +1,58 @@
+.nav_background_with_scroll {
+  background-color: var(--color-bg-black);
+  height: 5rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  transition-property: all;
+  transition-duration: 300ms;
+  color: var(--color-white);
+  align-items: center;
+  width: 100%;
+}
+
+.nav_background_without_scroll {
+  height: 6rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  transition-property: all;
+  transition-duration: 300ms;
+  color: var(--color-white);
+  align-items: center;
+  width: 100%;
+}
+
+.header_container {
+  width: 92%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav {
+  display: none;
+}
+
+.socials {
+  display: none;
+}
+
+/* ============== Media Queries (Medium Devices) ============== */
+@media (min-width: 1024px) {
+  .nav {
+    display: block;
+  }
+
+  .socials {
+    display: block;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}

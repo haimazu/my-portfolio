@@ -1,0 +1,123 @@
+/* ============== Projects.js ============== */
+.projects_section {
+  background: #1c1d24;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.projects_container {
+  margin: auto;
+  width: 92%;
+}
+
+.projects_title {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects_list {
+  display: grid;
+  row-gap: 3rem;
+}
+
+/* ============== Project.js ============== */
+.project_container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 0 1px 1px 1px var(--color-primary);
+  transition: all 0.5s ease 0s;
+  background-color: transparent;
+}
+
+.project_container:hover {
+  transform: scale(1.02);
+  overflow: hidden;
+  box-shadow: 0 2px 2px 2px var(--color-primary);
+}
+
+.project_image_div {
+  margin-bottom: 2rem;
+}
+
+.project_image {
+  border-radius: 1rem;
+  width: 376px;
+  height: 250px;
+}
+
+.project_item_name {
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-white);
+}
+
+.project_item_descriptions {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  max-width: 28rem;
+}
+
+.project_item_buttons {
+  padding: 1rem;
+}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .projects_list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1024px and down) */
+@media only screen and (max-width: 1024px) {
+  .projects_list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+
+  .project_image {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .projects_list {
+    grid-template-columns: 348px 348px;
+    column-gap: 1rem;
+    margin-left: -0.7rem;
+  }
+
+  .project_image {
+    width: 348px;
+    height: 250px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .project_image {
+    width: 336px;
+    height: 250px;
+  }
+}
+
+/* Extra small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+  .project_image {
+    width: 340px;
+    height: 250px;
+  }
+}

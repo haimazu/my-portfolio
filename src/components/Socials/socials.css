@@ -1,0 +1,24 @@
+/* ============== Socials.js ============== */
+.socials_container_ul {
+  display: flex;
+  margin-left: 1.5rem;
+  margin-top: 10px;
+  gap: 24px;
+}
+
+.socials_icon {
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials_icon a {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.socials_icon:hover {
+  background: transparent;
+  color: var(--color-primary-hover);
+}
