@@ -2,10 +2,6 @@
   My Portfolio<br/>
 </h1>
 
-## In process...
-- Update projects page
----
-
 ## Technologies and Tools
 ![git](https://img.shields.io/static/v1?label=git&message=v2.36.1&color=orange&logo=git&labelColor=363D44)
 ![cloudinary](https://img.shields.io/static/v1?label=cloudinary&message=v%5E1.23.0&color=blue&logo=Microsoft+OneDrive&logoColor=blue&labelColor=363D44)
