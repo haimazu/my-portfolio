@@ -19,7 +19,7 @@
 ![css3](https://img.shields.io/static/v1?label=css3&message=any&color=blue&logo=css3&labelColor=363D44&logoColor=blue)
 
 ## Introduction[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
-My personal portfolio [https://haimazu.herokuapp.com](https://haimazu.herokuapp.com).<br><br>
+My personal portfolio [https://haimazu.onrender.com](https://haimazu.onrender.com).<br><br>
 The **back-end**, this repository contains the files for contacting the server and accessing the database for dynamic data.<br><br>
 The **front-end** repository contains the files for creating a web application.<br>
 It has been developed using Create-React-App.
@@ -31,7 +31,7 @@ It has been developed using Create-React-App.
 4. Find me on social media.
 5. Contact me via email.
 ```
-[![demo](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656856775/portfolio/home_g3ta7a.png)](https://haimazu.herokuapp.com)
+[![demo](https://res.cloudinary.com/dzmau9ijh/image/upload/v1670751876/portfolio/2022-12-11_11_39_08-Haim_Azulay_-_Portfolio_-_Work_-_Microsoft_Edge_z7abgb.png)](https://haimazu.onrender.com)
 
 ## Built With[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
 The project was built using these technologies / tools:<br>
@@ -44,7 +44,7 @@ The project was built using these technologies / tools:<br>
 
 **Back-end:**
 
-- Heroku
+- Heroku -> Render
 - Express.js
 - MogngoDB
 - Postman
@@ -57,7 +57,7 @@ The project was built using these technologies / tools:<br>
 - CSS3
 
 ## My Website[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
-[https://haimazu.github.io](https://haimazu.herokuapp.com)
+[https://haimazu.onrender.com](https://haimazu.onrender.com)
 
 ## Credit[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
 Design idea - Cristian Mihai && soumyajit4419
