@@ -19,7 +19,7 @@ const Projects = () => {
 
         <a
           className="socials_icon"
-          href="https://haimazu-htb.herokuapp.com"
+          href="https://haimazu-htb.onrender.com"
           target="_blank"
           rel="noopener noreferrer"
         >
