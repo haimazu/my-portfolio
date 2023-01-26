@@ -15,13 +15,13 @@ const About = () => {
           <div className="about_details">
             <div className="about_details_right">
               <h1>About me</h1>
-              <h5>Student of Software Engineering</h5>
+              <h5>Software Engineer</h5>
 
               <hr />
 
               <p className="about_descriptions">
-                Hi, my name is Haim Azulay, I'm a software engineering student
-                at Braude College. (last semester)
+                Hi, my name is Haim Azulay, I'm software engineer
+                from Braude College.
                 <br />
                 I started my studies as a practical software engineer also at
                 Braude, and over the time I realized that I wanted to
