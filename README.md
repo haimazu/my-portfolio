@@ -27,7 +27,7 @@ It has been developed using Create-React-App.
 4. Find me on social media.
 5. Contact me via email.
 ```
-[![demo](https://res.cloudinary.com/dzmau9ijh/image/upload/v1670751876/portfolio/2022-12-11_11_39_08-Haim_Azulay_-_Portfolio_-_Work_-_Microsoft_Edge_z7abgb.png)](https://haimazu.onrender.com)
+[![demo](https://res.cloudinary.com/dzmau9ijh/image/upload/v1674726755/portfolio/2023-01-26_11_51_09-Window_djjsvy.png)](https://haimazu.onrender.com)
 
 ## Built With[![](https://res.cloudinary.com/dzmau9ijh/image/upload/v1656868183/portfolio/README/pin_gcb7f7.svg)]() 
 The project was built using these technologies / tools:<br>
