@@ -20,7 +20,7 @@ const Skills = () => {
     "Databases",
     "Operating Systems",
   ];
-  const data = [Languages, Tat, Background, Databases, Systems];
+  const data = [Languages, Tat, Platforms, Background, Databases, Systems];
 
   return (
     <section className="knowledge_section" id="skills">
