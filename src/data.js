@@ -315,8 +315,8 @@ export const contact = [
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Karmiel, Israel",
-    description: "Open for relocation",
+    subtitle: "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    // description: "Open for relocation",
   },
 ];
 
