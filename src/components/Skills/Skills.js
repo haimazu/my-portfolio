@@ -6,6 +6,7 @@ import Category from "./Category";
 
 import { Languages } from "../../data";
 import { Tat } from "../../data";
+import { Platforms } from "../../data";
 import { Background } from "../../data";
 import { Databases } from "../../data";
 import { Systems } from "../../data";
@@ -14,6 +15,7 @@ const Skills = () => {
   const titles = [
     "Programming / Tag Languages",
     "Technologies and Tools",
+    "Web & CMS Platforms",
     "Background (at a basic level)",
     "Databases",
     "Operating Systems",
