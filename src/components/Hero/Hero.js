@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="hero_details_left">
             <p className="hero_details_left_me">Welcome, I'm Haim Azulay.</p>
             <h1 className="hero_details_left_title">
-               Software Engineer 🔹 <br />Security Researcher
+               Software Engineer <br />Security Researcher
             </h1>
             <p className="hero_details_left_subtitle">
               For more details feel free to contact me.
