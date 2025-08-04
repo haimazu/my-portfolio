@@ -44,14 +44,14 @@ const JohnTheRipper = "https://res.cloudinary.com/dzmau9ijh/image/upload/v165652
 
 // Web & CMS Platforms
 const wordpress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754343810/portfolio/Web%20and%20CMS%20Platforms/WordPress_blue_logo.svg_e0dnme_1_jht1xe.png";
-const upress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754343743/portfolio/Web%20and%20CMS%20Platforms/upress-logo-alt_1_jgmhvx.png";
+const upress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754345180/portfolio/Web%20and%20CMS%20Platforms/favicon_1_ilszbk.png";
 
 // Background images
 const git = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/git_voje9w.png";
 const github = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/github_wrxroo.png";
 const bootstrap = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528783/portfolio/background/bootstrap_mnofyj.png";
 const reactjs = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/reactjs_keefpx.png";
-const express = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754344796/portfolio/background/1_3b1Txj9aSBQfUSQzCZBO-Q-removebg-preview_lofnbj.png";
+const express = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754345832/portfolio/background/1_3b1Txj9aSBQfUSQzCZBO-Q-removebg-preview_1_bmu2gb.png";
 const docker = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528783/portfolio/background/docker_s3cpoy.png";
 const proxmox = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/proxmox_uoopkw.png";
 const vmware = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/vmware_yheg6v.png";
