@@ -15,30 +15,26 @@ const About = () => {
           <div className="about_details">
             <div className="about_details_right">
               <h1>About me</h1>
-              <h5>Software Engineer</h5>
+              <h5>Software Engineer 🔹 Security Researcher</h5>
 
               <hr />
-
+                
               <p className="about_descriptions">
-                Hi, my name is Haim Azulay, I'm software engineer
-                from Braude College.
+                Hi, my name is Haim Azulay, I'm a Software Engineer from Braude College with a strong passion for information security.
                 <br />
-                I started my studies as a practical software engineer also at
-                Braude, and over the time I realized that I wanted to
-                integrate into the field of information security.
+                I started my academic journey as a Practical Software Engineer at Braude and quickly realized my desire to specialize in cybersecurity.
                 <br />
-                At the beginning of my first semester in software engineering, I
-                incorporated an information security cyber and hacking course at
-                John Bryce College.
+                Early in my software engineering studies, I took the initiative to enroll in a cyber and ethical hacking course at John Bryce College to deepen my knowledge in the field.
+                <br />
+                Today, I have over a year of hands-on experience as a Security Researcher, where I’ve been involved in analyzing threats, discovering vulnerabilities, and contributing to real-world security solutions.
                 <br />
                 <br />
-                Today I am interested in entering jobs in the field of
-                information security.
+                I'm now actively seeking new opportunities in the information security field.
                 <br />
                 <br />
-                For more details and to receive a resume, you can
-                contact me by clicking the button below.
+                For more details and to receive a resume, you can contact me by clicking the button below.
               </p>
+
             </div>
             <button className="btn_md">
               <Link
