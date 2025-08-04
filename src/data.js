@@ -11,7 +11,7 @@ const perach = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528785/po
 const educatingForExcellence = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528785/portfolio/companies/EducatingForExcellence_l9wx8e.png";
 
 // Languages images
-const typescript = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754308517/portfolio/languages/Typescript.svg-removebg-preview_popty8.png";
+const typescript = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754342583/portfolio/languages/Typescript.svg-removebg-preview_popty8_1_qvmtu3.png";
 const c = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/c_rvagna.png";
 const cSharp = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/c-sharp_e1mwcj.png";
 const cPlusPlus = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/c_dcdpx7.png";
@@ -24,9 +24,9 @@ const html5 = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/por
 const css3 = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/css3_xaw0ca.png";
 
 // Technologies and Tools images
-const aws = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303528/portfolio/technologies%20and%20tools/Amazon_Web_Services_Logo.svg_uhnnfk.png";
+const aws = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754342583/portfolio/technologies%20and%20tools/Amazon_Web_Services_Logo.svg_uhnnfk_1_x5jodc.png";
 const mixpanel = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303141/portfolio/technologies%20and%20tools/mixpanel_ol5fcu.png";
-const frontegg = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303249/portfolio/technologies%20and%20tools/frontegg-removebg-preview_mzwvkn.png";
+const frontegg = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754344640/portfolio/technologies%20and%20tools/e7fca6b4-535b-4b28-ab5c-ca87d52757c6-removebg-preview_dmz5dp.png";
 const bitbucket = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303380/portfolio/technologies%20and%20tools/logo-743959029541_gn4wbs.png";
 const jira = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303442/portfolio/technologies%20and%20tools/jira-1_h9vod3.svg";
 const slack = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303490/portfolio/technologies%20and%20tools/Slack-Logo_i3uhrt.png";
@@ -34,7 +34,7 @@ const vsStudio = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528790/
 const vsCode = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528790/portfolio/technologies%20and%20tools/vsCode_corder.png";
 const eclipse = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528789/portfolio/technologies%20and%20tools/eclipse_eij0t4.png";
 const pycharm = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528790/portfolio/technologies%20and%20tools/pycharm_gii7sy.png";
-const nodejs = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528789/portfolio/technologies%20and%20tools/nodejs_tk7wi6.png";
+const nodejs = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754343338/portfolio/technologies%20and%20tools/nodejs-new-pantone-white_zkadzw.png";
 const postman = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528789/portfolio/technologies%20and%20tools/postman_axot5t.png";
 const wireshark = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528790/portfolio/technologies%20and%20tools/wireshark_seyqop.png";
 const metasploit = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528789/portfolio/technologies%20and%20tools/metasploit_rif5lv.png";
@@ -43,15 +43,15 @@ const burp = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528788/port
 const JohnTheRipper = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528789/portfolio/technologies%20and%20tools/JohnTheRipper_qwlox9.png";
 
 // Web & CMS Platforms
-const wordpress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754302300/portfolio/Web%20and%20CMS%20Platforms/WordPress_blue_logo.svg_e0dnme.png";
-const upress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754310240/portfolio/Web%20and%20CMS%20Platforms/favicon_lyngdd.png";
+const wordpress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754343810/portfolio/Web%20and%20CMS%20Platforms/WordPress_blue_logo.svg_e0dnme_1_jht1xe.png";
+const upress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754343743/portfolio/Web%20and%20CMS%20Platforms/upress-logo-alt_1_jgmhvx.png";
 
 // Background images
 const git = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/git_voje9w.png";
 const github = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/github_wrxroo.png";
 const bootstrap = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528783/portfolio/background/bootstrap_mnofyj.png";
 const reactjs = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/reactjs_keefpx.png";
-const express = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656578984/portfolio/background/express_jgllzy.png";
+const express = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754344796/portfolio/background/1_3b1Txj9aSBQfUSQzCZBO-Q-removebg-preview_lofnbj.png";
 const docker = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528783/portfolio/background/docker_s3cpoy.png";
 const proxmox = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/proxmox_uoopkw.png";
 const vmware = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/vmware_yheg6v.png";
