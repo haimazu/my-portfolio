@@ -11,6 +11,7 @@ const perach = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528785/po
 const educatingForExcellence = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528785/portfolio/companies/EducatingForExcellence_l9wx8e.png";
 
 // Languages images
+const typescipt = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754301969/portfolio/languages/Typescript.ApdKzZht_b5eoef.png";
 const c = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/c_rvagna.png";
 const cSharp = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/c-sharp_e1mwcj.png";
 const cPlusPlus = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/c_dcdpx7.png";
@@ -23,6 +24,12 @@ const html5 = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/por
 const css3 = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/css3_xaw0ca.png";
 
 // Technologies and Tools images
+const aws = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303528/portfolio/technologies%20and%20tools/Amazon_Web_Services_Logo.svg_uhnnfk.png";
+const mixpanel = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303141/portfolio/technologies%20and%20tools/mixpanel_ol5fcu.png";
+const frontegg = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303249/portfolio/technologies%20and%20tools/frontegg-removebg-preview_mzwvkn.png";
+const bitbucket = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303380/portfolio/technologies%20and%20tools/logo-743959029541_gn4wbs.png";
+const Jira = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303442/portfolio/technologies%20and%20tools/jira-1_h9vod3.svg";
+const Slack = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754303490/portfolio/technologies%20and%20tools/Slack-Logo_i3uhrt.png";
 const vsStudio = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528790/portfolio/technologies%20and%20tools/vsStudio_kkulx8.png";
 const vsCode = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528790/portfolio/technologies%20and%20tools/vsCode_corder.png";
 const eclipse = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528789/portfolio/technologies%20and%20tools/eclipse_eij0t4.png";
@@ -34,6 +41,10 @@ const metasploit = "https://res.cloudinary.com/dzmau9ijh/image/upload/v165652878
 const nmap = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528789/portfolio/technologies%20and%20tools/nmap_ppw9cs.png";
 const burp = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528788/portfolio/technologies%20and%20tools/burp_uaoypc.png";
 const JohnTheRipper = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528789/portfolio/technologies%20and%20tools/JohnTheRipper_qwlox9.png";
+
+// Web & CMS Platforms
+const wordpress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754302300/portfolio/Web%20and%20CMS%20Platforms/WordPress_blue_logo.svg_e0dnme.png";
+const upgress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754302370/portfolio/Web%20and%20CMS%20Platforms/upress-io_zx2gkt.png";
 
 // Background images
 const git = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/git_voje9w.png";
@@ -125,6 +136,9 @@ export const companies = [
 // Programming / Tag languages
 export const Languages = [
   {
+    image: typescript,
+  },
+  {
     image: c,
   },
   {
@@ -190,6 +204,16 @@ export const Tat = [
   },
   {
     image: JohnTheRipper,
+  },
+];
+
+// Background
+export const Platforms = [
+  {
+    image: wordpress,
+  },
+  {
+    image: upress,
   },
 ];
 
