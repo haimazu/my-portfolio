@@ -11,7 +11,7 @@ const perach = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528785/po
 const educatingForExcellence = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528785/portfolio/companies/EducatingForExcellence_l9wx8e.png";
 
 // Languages images
-const typescript = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754301969/portfolio/languages/Typescript.ApdKzZht_b5eoef.png";
+const typescript = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754308517/portfolio/languages/Typescript.svg-removebg-preview_popty8.png";
 const c = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/c_rvagna.png";
 const cSharp = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/c-sharp_e1mwcj.png";
 const cPlusPlus = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528787/portfolio/languages/c_dcdpx7.png";
@@ -44,7 +44,7 @@ const JohnTheRipper = "https://res.cloudinary.com/dzmau9ijh/image/upload/v165652
 
 // Web & CMS Platforms
 const wordpress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754302300/portfolio/Web%20and%20CMS%20Platforms/WordPress_blue_logo.svg_e0dnme.png";
-const upress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754302370/portfolio/Web%20and%20CMS%20Platforms/upress-io_zx2gkt.png";
+const upress = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1754310240/portfolio/Web%20and%20CMS%20Platforms/favicon_lyngdd.png";
 
 // Background images
 const git = "https://res.cloudinary.com/dzmau9ijh/image/upload/v1656528784/portfolio/background/git_voje9w.png";
@@ -172,6 +172,24 @@ export const Languages = [
 
 // Technologies and Tools
 export const Tat = [
+  {
+    image: aws,
+  },
+  {
+    image: mixpanel,
+  },
+  {
+    image: frontegg,
+  },
+  {
+    image: bitbucket,
+  },
+  {
+    image: jira,
+  },
+  {
+    image: slack,
+  },
   {
     image: vsStudio,
   },
